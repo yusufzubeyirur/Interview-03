@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Genel stil ayarları */
+body {
+  background-color: #f0f0f0; /* Sayfanın arka plan rengini gri yapar */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Başlık stil ayarları */
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #0070f3; /* Başlık arka plan rengi */
+  color: white;
+  font-size: 24px;
+  position: fixed; /* Başlığı sabitler */
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Ana kapsayıcı */
+.App {
+  background-color: #ffffff; /* Ana bileşenin arka plan rengi beyaz */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px; /* Genişliği sınırlayarak mobil uyumlu hale getirir */
+  margin-top: 80px; /* Başlık yüksekliği kadar boşluk bırakır */
+}
+
+/* Buton stil ayarları */
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Liste stil ayarları */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px; /* Liste öğeleri arasında boşluk bırakır */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Aktivite başlık stil ayarları */
+h3 {
+  margin: 0;
+}
+
+/* Detayların görünüm ayarları */
+div {
+  margin-top: 10px;
+}
